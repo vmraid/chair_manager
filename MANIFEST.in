@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chair_manager *.css
+recursive-include chair_manager *.csv
+recursive-include chair_manager *.html
+recursive-include chair_manager *.ico
+recursive-include chair_manager *.js
+recursive-include chair_manager *.json
+recursive-include chair_manager *.md
+recursive-include chair_manager *.png
+recursive-include chair_manager *.py
+recursive-include chair_manager *.svg
+recursive-include chair_manager *.txt
+recursive-exclude chair_manager *.pyc
